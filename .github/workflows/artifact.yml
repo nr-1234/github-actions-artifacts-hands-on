@@ -22,6 +22,7 @@ jobs:
 
   download:
     name: download
+    needs: build
     runs-on: ubuntu-latest
 
     steps:
